@@ -10,7 +10,7 @@ const Card = ({id,image,info,price,name,removeTour}) => {
         }
         return (
             <div className="card">
-                <img src={image} className="image"></img>
+                <img src={image} alt="description of the image" className="image"></img>
 
                 <div className="tour-info">
                     <div className="tour-details">
